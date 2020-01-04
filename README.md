@@ -1,6 +1,7 @@
 # Keeley Byerly Portfolio
 This website was created to showcase web development projects in a bootcamp. It was created using Materialize. The form works using formspree. 
 
+Visit my portfolio: https://keeleybb.github.io/2020_01-04_Homework_Updated-Portfolio/
 
 # To do List
 1. Improve resizing of background image
