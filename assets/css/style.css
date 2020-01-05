@@ -22,6 +22,9 @@
     padding: 20px;
 
   }
+  .height-adj {
+    min-height: 200px;
+  }
   .dark-bg p, .dark-bg h4 {
     color: #FFF;
   }
@@ -76,6 +79,28 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+  .icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
+  
+  footer.page-footer {
+    margin: 0;
+  }
+  /* Card Styles */
+  .card-link {
+      color: #26a69a !important;
+      font-weight:bold;
+  }
+
+/*Media Queries*/
+@media only screen and (max-width : 1400px) {
+  .height-adj {
+    min-height: 250px;
+  }
+}
 
 @media only screen and (max-width : 1050px) {
   .photo-bg{
@@ -95,6 +120,15 @@ p {
   .photo-bg{
   background-image: url(../images/powell-md.jpg);
   }
+  .height-adj {
+    min-height: 275px;
+  }
+}
+
+@media only screen and (max-width : 705px) {
+  .height-adj {
+    min-height: 350px;
+  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -107,27 +141,15 @@ p {
   .photo-bg{
     background-image: url(../images/powell-small.jpg);
     }
+    .height-adj {
+      min-height: 200px;
+    }
 
 }
 @media only screen and (max-width : 400px) {
   .photo-bg{
     background-image: url(../images/powell-xsmall.jpg);
     }
-}
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-/* Card Styles */
-.card-link {
-    color: #26a69a !important;
-    font-weight:bold;
 }
 
 @media only screen 
